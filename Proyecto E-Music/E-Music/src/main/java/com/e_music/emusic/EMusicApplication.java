@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EMusicApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EMusicApplication.class, args);
-	}
+		SpringApplication.run(EMusicApplication.class, args);}
 
 }

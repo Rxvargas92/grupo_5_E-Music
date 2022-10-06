@@ -1,4 +1,4 @@
-import com.e_music.emusic.entities.Base;
+package com.e_music.emusic.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;

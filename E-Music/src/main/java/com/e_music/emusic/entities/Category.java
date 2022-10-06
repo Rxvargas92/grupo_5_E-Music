@@ -5,6 +5,6 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "CATEGORY")
-class Category extends Base{
+public class Category extends Base{
 
 }

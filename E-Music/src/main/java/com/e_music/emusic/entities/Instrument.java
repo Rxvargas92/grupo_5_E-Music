@@ -11,21 +11,32 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Getter
 @Setter
-class Instrument extends Base {
+public class Instrument extends Base {
 
+    @Column ( name = "name" )
     String name;
+
+    @Column ( name = "price" )
     Double price;
+
+    @Column ( name = "stock" )
     Integer stock;
+
+    @Column ( name = "pathImage" )
     String pathImage;
+    
+    @Column ( name = "description" )
     String description;
 
-    @ManyToOne
+    @ManyToOne ( fetch = FetchType.EAGER )
+    @JoinColumn ( name = "fk_cart", nullable = false )
     Cart cart;
 
-    @ManyToOne
+    @ManyToOne ( fetch = FetchType.EAGER )
+    @JoinColumn ( name = "fk_brand", nullable = false )
     Brand brand;
 
-    @OneToMany
-    Category category;
+//    @OneToMany (mappedBy = "instrument")
+//    Category category;
 
 }

@@ -13,6 +13,9 @@ import javax.persistence.*;
 @Setter
 public class Instrument extends Base {
 
+    @Column ( name = "active" )
+    boolean active = true;
+
     @Column ( name = "name" )
     String name;
 
@@ -24,7 +27,7 @@ public class Instrument extends Base {
 
     @Column ( name = "pathImage" )
     String pathImage;
-    
+
     @Column ( name = "description" )
     String description;
 
@@ -36,7 +39,8 @@ public class Instrument extends Base {
     @JoinColumn ( name = "fk_brand", nullable = false )
     Brand brand;
 
-//    @OneToMany (mappedBy = "instrument")
-//    Category category;
+    @ManyToOne ( fetch = FetchType.EAGER )
+    @JoinColumn ( name = "fk_category", nullable = false )
+    Category category;
 
 }

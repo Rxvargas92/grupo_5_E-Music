@@ -2,9 +2,8 @@ package com.e_music.emusic.entities;
 
 import lombok.*;
 import com.e_music.emusic.entities.User;
-import javax.persistence.Entity;
-import javax.persistence.OneToOne;
-import javax.persistence.Table;
+
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
@@ -16,15 +15,21 @@ import java.util.List;
 @NoArgsConstructor
 public class Cart extends Base {
 
-    String paymentMethod;
+    @Column(name = "paymentMethod")
+    String payment_method;
 
+    @Column(name = "total_price")
+    Double total_price;
 
-    Double totalPrice;
+    @Column( name = "active")
+    boolean active;
 
-    @OneToOne()
+    @OneToOne( fetch = FetchType.EAGER )
+    @JoinColumn( name = "fk_user", nullable = false)
     User user;
 
-
+    @OneToMany( fetch = FetchType.EAGER )
+    @JoinColumn( name = "fk_instrument", nullable = false)
     List<Instrument> instruments;
 
 }

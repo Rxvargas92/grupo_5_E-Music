@@ -30,7 +30,7 @@ public abstract class BaseControllerImpl <E extends Base, S extends ServiceBaseI
     }
 
     @PostMapping("")
-    public ResponseEntity<?> save(@RequestBody E entity){
+    public ResponseEntity<?> saveOne(@RequestBody E entity){
         try {
             return ResponseEntity.status(HttpStatus.OK).body(servicio.saveOne(entity));
         }catch (Exception e){
@@ -39,7 +39,7 @@ public abstract class BaseControllerImpl <E extends Base, S extends ServiceBaseI
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<?> update(@PathVariable Long id, @RequestBody E entity){
+    public ResponseEntity<?> updateOne(@PathVariable Long id, @RequestBody E entity){
         try {
             return ResponseEntity.status(HttpStatus.OK).body(servicio.updateOne(entity, id));
         }catch (Exception e){
@@ -48,7 +48,7 @@ public abstract class BaseControllerImpl <E extends Base, S extends ServiceBaseI
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> delete(@PathVariable Long id){
+    public ResponseEntity<?> deleteById(@PathVariable Long id){
         try {
             return ResponseEntity.status(HttpStatus.NO_CONTENT).body(servicio.deleteById(id));
         }catch (Exception e){

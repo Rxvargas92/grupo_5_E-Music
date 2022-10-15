@@ -4,15 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="a406c992-05f5-4220-b318-f51c9c57fab9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_oct__2022_11_57__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_oct__2022_11_57__Changes_.xml" afterDir="false" />
+
+    <list default="true" id="a406c992-05f5-4220-b318-f51c9c57fab9" name="Changes" comment="Creacion User &amp; Address Entity, Repository y Service">
+      <change afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/controllers/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/controllers/BaseControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceAddressImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceBaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceBrandImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceCartImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceCategoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceInstrumentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceUserImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_oct__2022_11_57_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_oct__2022_11_57__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/controllers/InstrumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/controllers/InstrumentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryInstrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryInstrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/repositories/RepositoryUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceInstrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceInstrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/E-Music/src/main/java/com/e_music/emusic/services/ServiceUser.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -46,6 +90,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -56,6 +101,25 @@
     "spring.configuration.checksum": "a06cd25c89c7721ed92b951b00dc5f2f"
   }
 }]]></component>
+
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Usuario/IdeaProjects/persona",
+    "spring.configuration.checksum": "a06cd25c89c7721ed92b951b00dc5f2f"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="EMusicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="E-Music" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.e_music.emusic.EMusicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +130,16 @@
       <updated>1665061082945</updated>
       <workItem from="1665061086160" duration="361000" />
       <workItem from="1665154563605" duration="45000" />
+      <workItem from="1665769588434" duration="3849000" />
     </task>
+    <task id="LOCAL-00001" summary="Creacion User &amp; Address Entity, Repository y Service">
+      <created>1665344585975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665344585975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,10 +150,41 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/user_address_branch" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creacion User &amp; Address Entity, Repository y Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion User &amp; Address Entity, Repository y Service" />
   </component>
 </project>
